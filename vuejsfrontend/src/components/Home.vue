@@ -7,6 +7,7 @@
 
 <template>
     <div>
+        <h1>Connect Vue JS with Django</h1>
         <div v-if="error">Oops! Error encountered: {{ error.message }}</div>
         <div v-else-if="studentData">
             <div v-for="({ id, stuname, email }, i) in studentData" :key="id">
