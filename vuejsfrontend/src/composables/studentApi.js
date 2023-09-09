@@ -2,7 +2,7 @@ import { ref } from "vue";
 import axios from "axios";
 
 export default function useStudent(){
-    const url = "http://localhost:8000/api/student"
+    const url = "http://localhost:8000/api/student/"
     const studentData = ref([])
     const error = ref(null)
     //Get all Students Data
